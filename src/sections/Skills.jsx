@@ -1,15 +1,15 @@
 import React, { useEffect, useRef, useState } from "react";
-import { FaJava, FaReact } from "react-icons/fa";
+import { FaJava, FaReact, FaBootstrap } from "react-icons/fa";
 import {
   SiNextdotjs,
-  SiTypescript,
   SiTailwindcss,
   SiFastapi,
   SiPython,
-  SiDocker,
+  SiHibernate,
   SiMongodb,
-  SiAngular,
+  SiJavascript,
 } from "react-icons/si";
+
 import { DiNodejsSmall } from "react-icons/di";
 import { motion, useMotionValue } from "framer-motion";
 
@@ -18,13 +18,13 @@ const Skills = () => {
     { icon: <FaJava />, name: "Java" },
     { icon: <FaReact />, name: "React" },
     { icon: <SiNextdotjs />, name: "Next.js" },
-    { icon: <SiTypescript />, name: "TypeScript" },
+    { icon: <SiJavascript />, name: "JavaScript" },
     { icon: <SiTailwindcss />, name: "Tailwind CSS" },
     { icon: <SiFastapi />, name: "FastAPI" },
     { icon: <SiPython />, name: "Python" },
     { icon: <DiNodejsSmall />, name: "Node.js" },
-    { icon: <SiDocker />, name: "Docker" },
-    { icon: <SiAngular />, name: "Angular" },
+    { icon: <FaBootstrap />, name: "Bootstrap" },
+    { icon: <SiHibernate />, name: "Hibernate" },
     { icon: <SiMongodb />, name: "MongoDB" },
   ];
 

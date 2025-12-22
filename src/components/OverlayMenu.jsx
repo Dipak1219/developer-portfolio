@@ -29,7 +29,6 @@ export default function OverlayMenu({ isOpen, onClose }) {
               "Home",
               "About",
               "Skills",
-              "Experience",
               "Testimonials",
               "Contact",
             ].map((item, idx) => (

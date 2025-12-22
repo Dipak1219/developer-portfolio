@@ -4,9 +4,9 @@ import Me from "../assets/boy.jpg";
 
 const About = () => {
   const stats = [
-    { label: "Experience", value: "1+ years" },
-    { label: "Speciality", value: "Full Stack" },
-    { label: "Focus", value: "Performance & UX" },
+    { label: "Experience", value: "Hands-on Projects" },
+    { label: "Speciality", value: "Java & Web Development" },
+    { label: "Focus", value: "Performance & DSA" },
   ];
 
   const glows = [
@@ -51,14 +51,14 @@ const About = () => {
               Dipak Chavan
             </h2>
             <p className="mt-2 text-lg sm:text-xl  font-semibold text-white/90">
-              Full Stack Developer
+              Full-Stack Java Developer
             </p>
             <p className="mt-4 text-gray-300 leading-relaxed text-base sm:text-lg max-w-2xl md:max-w-3xl">
-              I build scalable, modern applications with a strong focus on clean
-              architecture, delightful UX, and performance. My toolkit spans
-              Java, React, Next.js, TypeScript, Tailwind CSS, and
-              RestfulAPI—bringing ideas to life from concept to production with
-              robust APIs and smooth interfaces.
+              I build modern, scalable web applications with a strong focus on
+              clean code, performance, and user experience. My toolkit includes
+              Java, JDBC, Servlets, React, Tailwind CSS, SQL, and modern
+              frontend tools—helping transform ideas into well-structured and
+              reliable applications.
             </p>
 
             <div className="mt-2 grid grid-cols-2 sm:grid-cols-3 gap-3 sm:gap-4 max-w-xl  ">
@@ -105,9 +105,9 @@ const About = () => {
             About Me
           </h3>
           <p className=" text-gray-300 leading-relaxed text-base sm:text-lg ">
-            I'm a Software Developer, Content Creator, and Web Developer –
-            passionate about building fast, resilient applications and sharing
-            coding insights on Instagram and YouTube.
+            I'm a software developer passionate about building fast, reliable
+            web applications and continuously improving my skills through
+            hands-on projects and problem-solving.
           </p>
           <p className=" mt-4 text-gray-400 text-base sm:text-lg ">
             I love turning ideas into scalable, user-friendly products that make

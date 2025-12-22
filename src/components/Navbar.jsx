@@ -71,9 +71,9 @@ const Navbar = () => {
     <nav className={`fixed top-0 left-0 w-full flex items-center justify-between px-6 py-4 z-50 transition-transform duration-300 ${visible ? 'translate-y-0': '-translate-y-full' } `}>
 
     <div className='flex items-center space-x-10'>
-      <img src={Logo} alt="Logo" className='h-10 w-10' />
+      <img src="https://th.bing.com/th?q=Letter+D+Logo+Black+Background&w=120&h=120&c=1&rs=1&qlt=70&o=7&cb=1&dpr=1.3&pid=InlineBlock&rm=3&ucfimg=1&mkt=en-IN&cc=IN&setlang=en&adlt=moderate&t=1&mw=247" alt="Logo" className='h-12 w-12 shadow shadow-blue-500 pointer-events-none rounded-4xl' />
       <div className='text-white text-2xl hidden font-bold sm:block'>
-        Dipak
+        {/* Dipak */}
       </div>
     </div>
 

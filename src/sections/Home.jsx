@@ -27,7 +27,14 @@ const glowVarients = {
 };
 
 const Home = () => {
-  const roles = useMemo(() => ["Web Developer", "Software Developer"], []);
+  const roles = useMemo(
+    () => [
+      "Full-Stack Java Developer",
+      // "Java & Web Developer (DSA Focused)",
+      "Java & Web Developer | DSA",
+    ],
+    []
+  );
   const [index, setIndex] = React.useState(0);
   const [subIndex, setSubIndex] = React.useState(0);
   const [deleting, setDeleting] = React.useState(false);
@@ -67,7 +74,8 @@ const Home = () => {
         <div className="flex flex-col justify-center h-full text-center lg:text-left relative">
           <div className="w-full lg:pr-24 mx-auto max-w-3xl">
             <motion.div
-              className="mb-3 text-xl sm:text-2xl md:text-3xl lg:text-4xl font-semibold text-white tracking-wide min-h-[1.6em]"
+            style={{background: "#E5E7EB", color:"transparent", WebkitBackgroundClip:"text", textShadow :" 0 0 20px rgba(56, 189, 248, 0.35)" }}
+              className="mb-3 text-xl sm:text-2xl md:text-3xl  lg:text-3xl font-semibold  tracking-wide min-h-[1.6em]"
               initial={{ opacity: 0, y: 12 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6 }}
@@ -91,16 +99,20 @@ const Home = () => {
               </span>
             </motion.h1>
             <motion.p
-              className="my-6 text-base sm:text-2xl md:text-2xl text-gray-300 max-w-2xl mx-auto lg:mx-0"
+              className="my-6 text-base sm:text-2xl md:text-xl  text-gray-300 max-w-2xl mx-auto lg:mx-0"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.3, duration: 0.8 }}
             >
-              I build modern, scalable web experiences that transform complex
-              ideas into smooth, high‑impact applications.
-              {/* I turn complex ideas into seamless, high-impact web experiences —
-              building modern, scalable, and lightning-fast applications that
-              make a difference. */}
+              {/* I'm a passionate web developer focused on building clean,
+              efficient, and user-friendly applications .I enjoy turning ideas
+              into reliable digital solutions while continuously improving my
+              skills and exploring new technologies. */}
+              I build efficient web applications using Java and modern web
+              technologies, with a strong foundation in data structures and
+              algorithms. I focus on writing clean, optimized code and enjoy
+              solving problems that improve performance, scalability, and user
+              experience.
             </motion.p>
 
             {/* creating buttons */}
@@ -114,7 +126,7 @@ const Home = () => {
                 href=""
                 className="py-3 px-6 rounded-full font-medium  text-lg text-white bg-linear-to-r from-[#1cd8d2] via-[#00bf8f] to-[#302b63] shadow-lg hover:scale-105  transition-opacity duration-300 "
               >
-                View My Mork
+                View My Work
               </a>
 
               <a
