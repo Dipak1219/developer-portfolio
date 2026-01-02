@@ -74,7 +74,12 @@ const Home = () => {
         <div className="flex flex-col justify-center h-full text-center lg:text-left relative">
           <div className="w-full lg:pr-24 mx-auto max-w-3xl">
             <motion.div
-            style={{background: "#E5E7EB", color:"transparent", WebkitBackgroundClip:"text", textShadow :" 0 0 20px rgba(56, 189, 248, 0.35)" }}
+              style={{
+                background: "#E5E7EB",
+                color: "transparent",
+                WebkitBackgroundClip: "text",
+                textShadow: " 0 0 20px rgba(56, 189, 248, 0.35)",
+              }}
               className="mb-3 text-xl sm:text-2xl md:text-3xl  lg:text-3xl font-semibold  tracking-wide min-h-[1.6em]"
               initial={{ opacity: 0, y: 12 }}
               animate={{ opacity: 1, y: 0 }}
